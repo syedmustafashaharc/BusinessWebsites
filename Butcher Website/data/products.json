@@ -1,0 +1,136 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Premium Ribeye Steak",
+      "category": "Beef Cuts",
+      "price": "£24.99",
+      "description": "Hand-cut ribeye steaks from grass-fed cattle. Perfect for grilling with excellent marbling.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561a1a?w=500&h=500&fit=crop",
+      "rating": 4.8,
+      "reviews": 124
+    },
+    {
+      "id": 2,
+      "name": "Butcher's Ground Beef",
+      "category": "Ground Meat",
+      "price": "£8.99",
+      "description": "Freshly ground beef blend, perfect for burgers and meatballs. Ground daily in-house.",
+      "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=500&h=500&fit=crop",
+      "rating": 4.6,
+      "reviews": 89
+    },
+    {
+      "id": 3,
+      "name": "Lamb Chops",
+      "category": "Lamb Cuts",
+      "price": "£18.99",
+      "description": "Tender lamb chops from local farms. Ideal for elegant dinners and special occasions.",
+      "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=500&h=500&fit=crop",
+      "rating": 4.9,
+      "reviews": 156
+    },
+    {
+      "id": 4,
+      "name": "Free-Range Chicken Breast",
+      "category": "Poultry",
+      "price": "£12.99",
+      "description": "Succulent, tender chicken breasts from free-range birds. Excellent source of lean protein.",
+      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=500&h=500&fit=crop",
+      "rating": 4.7,
+      "reviews": 203
+    },
+    {
+      "id": 5,
+      "name": "Pork Tenderloin",
+      "category": "Pork Cuts",
+      "price": "£15.99",
+      "description": "Lean and tender pork tenderloin. Perfect for roasting or as elegant steaks for dinner.",
+      "image": "https://images.unsplash.com/photo-1609501676725-7186f017a4b5?w=500&h=500&fit=crop",
+      "rating": 4.8,
+      "reviews": 142
+    },
+    {
+      "id": 6,
+      "name": "Wagyu Beef Brisket",
+      "category": "Premium Beef",
+      "price": "£34.99",
+      "description": "Authentic Japanese Wagyu brisket with exceptional marbling. For the ultimate BBQ experience.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561a1a?w=500&h=500&fit=crop",
+      "rating": 5.0,
+      "reviews": 67
+    },
+    {
+      "id": 7,
+      "name": "Duck Breast Fillets",
+      "category": "Specialty Meats",
+      "price": "£16.99",
+      "description": "Premium duck breast with crispy skin. Perfect for pan-searing and elegant plating.",
+      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=500&h=500&fit=crop",
+      "rating": 4.9,
+      "reviews": 98
+    },
+    {
+      "id": 8,
+      "name": "Organic Beef Stew Meat",
+      "category": "Beef Cuts",
+      "price": "£11.99",
+      "description": "Cubed beef perfect for slow cooking. From organic, ethically-raised cattle.",
+      "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=500&h=500&fit=crop",
+      "rating": 4.7,
+      "reviews": 176
+    }
+  ],
+  "specialOffers": [
+    {
+      "id": 1,
+      "title": "Summer Grilling Pack",
+      "discount": "20% OFF",
+      "description": "Get 20% off on all premium steaks when you spend over £50",
+      "validity": "This week only",
+      "color": "from-orange-500 to-red-600"
+    },
+    {
+      "id": 2,
+      "title": "Family Bundle Deal",
+      "discount": "Save £15",
+      "description": "Mix & match any 5 cuts and save £15 on your order",
+      "validity": "Until end of month",
+      "color": "from-red-600 to-pink-600"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "author": "James Mitchell",
+      "role": "Professional Chef",
+      "content": "The quality of meat from Sallo Cuts is exceptional. I trust them completely for my restaurant.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+    },
+    {
+      "id": 2,
+      "author": "Sarah Thompson",
+      "role": "Home Cook",
+      "content": "Absolutely the best butcher in London! Their customer service is outstanding and the meat is always fresh.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"
+    },
+    {
+      "id": 3,
+      "author": "Michael Chen",
+      "role": "Restaurant Owner",
+      "content": "Reliable supplier for 5+ years. Consistent quality and fair prices. Highly recommended!",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop"
+    },
+    {
+      "id": 4,
+      "author": "Emma Wilson",
+      "role": "Food Blogger",
+      "content": "Sallo Cuts has transformed my cooking. The difference in quality is noticeable in every dish.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
+    }
+  ]
+}
