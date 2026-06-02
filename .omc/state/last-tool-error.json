@@ -1,7 +1,7 @@
 {
   "tool_name": "PowerShell",
-  "tool_input_preview": "{\"command\":\"cd \\\"c:\\\\Users\\\\MustafaShah\\\\OneDrive\\\\DEVELOPMENT\\\\Butcher website\\\\Butcher Website\\\" && npx tsc --noEmit 2>&1 | Select-Object -First 50\",\"description\":\"TypeScript type check\"}",
-  "error": "Exit code 2\ncomponents/sections/product-gallery.tsx(37,7): error TS2322: Type 'object' is not assignable to type 'Variants'.\r\n  Index signature for type 'string' is missing in type '{}'.",
-  "timestamp": "2026-06-02T01:31:11.508Z",
+  "tool_input_preview": "{\"command\":\"cd \\\"c:\\\\Users\\\\MustafaShah\\\\OneDrive\\\\DEVELOPMENT\\\\Butcher website\\\" && npx tsc --noEmit 2>&1 | Select-Object -First 20\",\"description\":\"Type check to verify fix\"}",
+  "error": "Exit code 2\ncomponents/sections/special-offers.tsx(3,1): error TS6133: 'React' is declared but its value is never read.\r\ncomponents/sections/testimonials-carousel.tsx(3,8): error TS6133: 'React' is declared but its value is never read.\r\ncomponents/theme-provider.tsx(3,1): error TS6133: 'React' is declared but its value is never read.",
+  "timestamp": "2026-06-02T02:38:55.424Z",
   "retry_count": 1
 }

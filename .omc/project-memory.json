@@ -124,8 +124,8 @@
     },
     {
       "path": "components\\footer.tsx",
-      "accessCount": 4,
-      "lastAccessed": 1780365331056,
+      "accessCount": 6,
+      "lastAccessed": 1780367711774,
       "type": "file"
     },
     {
@@ -141,6 +141,24 @@
       "type": "file"
     },
     {
+      "path": "components\\sections\\special-offers.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1780367951742,
+      "type": "file"
+    },
+    {
+      "path": "components\\sections\\testimonials-carousel.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1780367952953,
+      "type": "file"
+    },
+    {
+      "path": "components\\theme-provider.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1780367954155,
+      "type": "file"
+    },
+    {
       "path": "app\\layout.tsx",
       "accessCount": 2,
       "lastAccessed": 1780365184926,
@@ -153,21 +171,9 @@
       "type": "file"
     },
     {
-      "path": "components\\sections\\special-offers.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1780362260514,
-      "type": "file"
-    },
-    {
       "path": "app\\page.tsx",
       "accessCount": 1,
       "lastAccessed": 1780362260924,
-      "type": "file"
-    },
-    {
-      "path": "components\\sections\\testimonials-carousel.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1780362264391,
       "type": "file"
     },
     {

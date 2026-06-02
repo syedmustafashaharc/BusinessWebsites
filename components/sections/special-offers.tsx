@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
 import { Zap } from "lucide-react";
 import products from "@/data/products.json";
