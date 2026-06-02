@@ -74,20 +74,8 @@ export async function POST(request: NextRequest) {
     // 2. Store in database
     // 3. Create a ticket/task for the business
 
-    // Example: Send to admin email
-    const emailBody = `
-    New contact form submission:
-
-    Name: ${name}
-    Email: ${email}
-    Subject: ${subject}
-
-    Message:
-    ${message}
-    `;
-
     // TODO: Implement actual email sending
-    console.log("Contact form submission:", { name, email, subject });
+    console.log("Contact form submission:", { name, email, subject, message });
 
     return NextResponse.json({
       success: true,

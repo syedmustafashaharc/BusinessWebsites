@@ -10,6 +10,7 @@ coverage/
 build/
 dist/
 .next/
+.next-build/
 out/
 
 # Misc

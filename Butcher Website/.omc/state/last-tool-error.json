@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"cd \\\"c:\\\\Users\\\\MustafaShah\\\\OneDrive\\\\DEVELOPMENT\\\\Butcher website\\\\Butcher Website\\\" && npx tsc --noEmit 2>&1 | Select-Object -First 50\",\"description\":\"TypeScript type check\"}",
+  "error": "Exit code 2\ncomponents/sections/product-gallery.tsx(37,7): error TS2322: Type 'object' is not assignable to type 'Variants'.\r\n  Index signature for type 'string' is missing in type '{}'.",
+  "timestamp": "2026-06-02T01:31:11.508Z",
+  "retry_count": 1
+}

@@ -9,9 +9,6 @@ const nextConfig = {
     ],
     unoptimized: false,
   },
-  experimental: {
-    appDir: true,
-  },
 };
 
 module.exports = nextConfig;

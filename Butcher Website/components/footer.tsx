@@ -8,11 +8,31 @@ import { motion } from "framer-motion";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
-  const footerLinks = {
-    Products: ["Beef Cuts", "Pork Cuts", "Lamb Cuts", "Poultry", "Specialties"],
-    Company: ["About Us", "Blog", "Careers", "Press"],
-    Support: ["Contact", "FAQ", "Shipping Info", "Returns"],
-    Legal: ["Privacy Policy", "Terms & Conditions", "Cookies"],
+  const footerLinks: Record<string, { label: string; href: string }[]> = {
+    Products: [
+      { label: "Beef Cuts", href: "#" },
+      { label: "Pork Cuts", href: "#" },
+      { label: "Lamb Cuts", href: "#" },
+      { label: "Poultry", href: "#" },
+      { label: "Specialties", href: "#" },
+    ],
+    Company: [
+      { label: "About Us", href: "#" },
+      { label: "Blog", href: "/blog" },
+      { label: "Careers", href: "#" },
+      { label: "Press", href: "#" },
+    ],
+    Support: [
+      { label: "Contact", href: "#contact" },
+      { label: "FAQ", href: "#" },
+      { label: "Shipping Info", href: "#" },
+      { label: "Returns", href: "#" },
+    ],
+    Legal: [
+      { label: "Privacy Policy", href: "#" },
+      { label: "Terms & Conditions", href: "#" },
+      { label: "Cookies", href: "#" },
+    ],
   };
 
   return (
@@ -66,13 +86,13 @@ const Footer = () => {
               <h4 className="font-semibold mb-4">{category[0]}</h4>
               <ul className="space-y-2">
                 {category[1].map((link) => (
-                  <li key={link}>
-                    <a
-                      href="#"
+                  <li key={link.label}>
+                    <Link
+                      href={link.href}
                       className="text-foreground/60 hover:text-foreground transition-colors text-sm"
                     >
-                      {link}
-                    </a>
+                      {link.label}
+                    </Link>
                   </li>
                 ))}
               </ul>
