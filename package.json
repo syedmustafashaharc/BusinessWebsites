@@ -7,7 +7,7 @@
     "predev": "node scripts/clean-next-artifacts.js",
     "dev": "next dev",
     "prebuild": "node scripts/clean-next-artifacts.js",
-    "build": "next build --output public",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
